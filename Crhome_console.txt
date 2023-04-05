@@ -1,0 +1,17 @@
+---- Na aba 'console' da página chrome -----
+window - primeiro item.
+
+Faça os seguntes comandos:
+> window.alert('Mensagem de alerta');
+-
+-
+> window.confirm('Deseja continuar?');
+- -> Ok = true.    |  -> cancelar = false.
+
+>window.prompt('Digite seu nome');
+- aparecerá um campo
+
+>const result = confirm('Deseja continuar?');
+-armazena o valor booleano em uma variável.
+
+>let varRes = prompt('Escreva algo!');

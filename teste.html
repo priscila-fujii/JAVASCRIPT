@@ -7,7 +7,15 @@
 </head>
 
 <body>
-    <script src="Intro.js">
+    <script>
+        let num = prompt('Digite qualquer valor numérico');
+        document.write(`<h2><strong>O valor digitado foi: ${num}</strong></h2>`);
+        document.write(`<h3>A raíz quadrada é: ${(num * (0.5))}</h3>`);
+        document.write(`<h3>É inteiro: ${Number.isInteger(num)}</h3>`);
+        document.write(`<h3>É NaN(Not-a-Number)? = </h3>`);
+        document.write(`<h3>Arredondamento para baixo: ${Math.floor(num)}</h3>`);
+        document.write(`<h3>Arredondamento para cima: ${Math.ceil(num)}</h3>`);
+        document.write(`<h4><strong>Valor com duas casas decimais: ${num.fixed(2)}</strong></h4>`)
     </script>
 </body>
 

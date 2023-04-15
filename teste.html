@@ -7,19 +7,17 @@
 </head>
 
 <body>
-<<<<<<< HEAD
     <script>
-        let num = prompt('Digite qualquer valor numérico');
-        document.write(`<h2><strong>O valor digitado foi: ${num}</strong></h2>`);
-        document.write(`<h3>A raíz quadrada é: ${(num * (0.5))}</h3>`);
+        let a = prompt('Digite qualquer valor numérico');
+        let num = parseInt(a);
+        document.write(`<h2>O valor digitado foi: ${num}</h2>`);
+        document.write(`<h3>A raíz quadrada é: ${(num ** (0.5))}</h3>`);
         document.write(`<h3>É inteiro: ${Number.isInteger(num)}</h3>`);
-        document.write(`<h3>É NaN(Not-a-Number)? = </h3>`);
+        //document.write(`<h3>\t-e agora: ${num = (Number.)}</h3>`);
+        document.write(`<h3>É NaN(Not-a-Number)? = ${Number.isNaN(num)}</h3>`);
         document.write(`<h3>Arredondamento para baixo: ${Math.floor(num)}</h3>`);
         document.write(`<h3>Arredondamento para cima: ${Math.ceil(num)}</h3>`);
-        document.write(`<h4><strong>Valor com duas casas decimais: ${num.fixed(2)}</strong></h4>`)
-=======
-    <script src="abr_7.js">
->>>>>>> d70ceddc9bb9ef8f884232f3ac895649008fd581
+        document.write(`<h3>Valor com duas casas decimais: ${num.fixed(2)}</h3>`)
     </script>
 </body>
 

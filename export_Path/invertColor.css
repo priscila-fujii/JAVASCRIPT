@@ -1,0 +1,29 @@
+@charset "UTF-8";
+:root {
+    --cor-BODY: rgb(200, 255, 180);
+    --cor-PARAGRAPH: rgb(255, 255, 255);
+    --cor-CONTAINER: rgb(255, 255, 255);
+    --cor-new-BODY: rgb(171, 183, 176);
+}
+
+* {
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: var(--cor-BODY);
+    /*font-family: 'Open sans', sans-serif;*/
+    font-size: 1.3em;
+    line-height: 1.5em;
+}
+
+.container{
+    max-lines: 700px;
+    margin: 50px;
+    background: var(--cor-CONTAINER);
+    padding: 20px;
+    border-radius: 5px;
+}

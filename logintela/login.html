@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        @import url('./css/loginstyle2.css');
+    </style>
+</head>
+
+<body>
+    <section class="container">
+        <h2>Seu IMC</h2>
+
+        <p>Criado no século 19 pelo matemático Lambert Quételet,
+            o Índice de Massa Corporal, conhecido pela sigla IMC, é
+            um cálculo simples que permite medir se alguém está ou não
+            com o peso ideal. Ele aponta se o peso está adequado ou
+            se está abaixo ou acima do peso.<br />
+            <a href="https://www.saude.rj.gov.br/obesidade/noticias/2019/03/imc-voce-sabe-o-que-o-indice-de-massa-corporal-diz-sobre-sua-saude#:~:text=Criado%20no%20s%C3%A9culo%2019%20pelo,abaixo%20ou%20acima%20do%20peso.">Saiba mais</a>
+        </p>
+        <form action="/" id="formulario">
+            <label id="altura" class="lable">Altura (m):</label>
+            <input id="inpAlt" type="text" class="inpAlt">
+            <label id="peso" class="lable">Peso (kg):</label>
+            <input id="inpPeso" type="text" class="inpPeso">
+            <button type="submit" class="logable">Enviar</button>
+        </form>
+        <div id="imcResult"></div>
+    </section>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>

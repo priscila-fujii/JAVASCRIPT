@@ -1,5 +1,3 @@
-const document = window.document;
-
 const divClassParagrafos = document.querySelector('.paragrafos');
 // Pegou tuda a estrutura <div>
 
@@ -11,6 +9,8 @@ const styleBody = getComputedStyle(document.body);
 
 const backgrondColorOfBody = styleBody.backgroundColor;
 // atribui a funcionalidade de manipular a cor para outra variável.
+
 for (let p of paragrafos){
     p.style.backgroundColor = backgrondColorOfBody;
+    p.style.color = '#ff7626';
 }

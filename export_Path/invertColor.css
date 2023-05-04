@@ -4,8 +4,8 @@
     --cor-PARAGRAPH: rgb(255, 255, 255);
     --cor-CONTAINER: rgb(255, 255, 255);
     --cor-new-BODY: rgb(171, 183, 176);
+    --cor-NULL: #ff7626;
 }
-
 * {
     box-sizing: border-box;
     outline: 0;
